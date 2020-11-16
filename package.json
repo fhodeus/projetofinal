@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "homepage": "https://fhodeus.github.io/projetofinal/",
+=======
+  "homepage": "https://fhodeus.github.io/projetofinal",
+>>>>>>> b45bd234cd208369800d07baaffb0c65e9841837
   "name": "projetofinaltania",
   "version": "0.1.0",
   "private": true,
