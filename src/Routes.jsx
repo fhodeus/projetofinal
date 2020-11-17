@@ -12,10 +12,10 @@ function Routes() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact component={home}></Route>
-        <Route path="/gaus" component={Gaus}></Route>
-        <Route path="/seidel" component={Seidel}></Route>
-        <Route path="/jacobi" component={Jacobi}></Route>
-        <Route path="/Lagrange" component={Lagrange}></Route>
+        <Route path="/projetofinal/gaus" component={Gaus}></Route>
+        <Route path="/projetofinal/seidel" component={Seidel}></Route>
+        <Route path="/projetofinal/jacobi" component={Jacobi}></Route>
+        <Route path="/projetofinal/Lagrange" component={Lagrange}></Route>
       </Switch>
     </BrowserRouter>
   )
