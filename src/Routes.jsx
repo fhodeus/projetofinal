@@ -11,8 +11,8 @@ function Routes() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route path="/"   exact component={home}></Route>
-        <Route path="/projetofinal/gaus" component={Gaus}></Route>
+        <Route path="/" exact component={home}></Route>
+        <Route path={process.env.PUBLIC_URL + "/projetofinal/gaus"} component={Gaus}></Route>
         <Route path="/projetofinal/seidel" component={Seidel}></Route>
         <Route path="/projetofinal/jacobi" component={Jacobi}></Route>
         <Route path="/projetofinal/Lagrange" component={Lagrange}></Route>
