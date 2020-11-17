@@ -11,11 +11,11 @@ function Routes() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
-        <Route path="/"   exact component={home}></Route>
-        <Route path="/projetofinal/gaus" component={Gaus}></Route>
-        <Route path="/projetofinal/seidel" component={Seidel}></Route>
-        <Route path="/projetofinal/jacobi" component={Jacobi}></Route>
-        <Route path="/projetofinal/Lagrange" component={Lagrange}></Route>
+        <Route path={process.env.PUBLIC_URL + "/"} exact component={home}></Route>
+        <Route path={process.env.PUBLIC_URL + "/projetofinal/gaus"} component={Gaus}></Route>
+        <Route path={process.env.PUBLIC_URL + "/projetofinal/seidel"} component={Seidel}></Route>
+        <Route path={process.env.PUBLIC_URL + "/projetofinal/jacobi"} component={Jacobi}></Route>
+        <Route path={process.env.PUBLIC_URL + "/projetofinal/Lagrange"} component={Lagrange}></Route>
       </Switch>
     </BrowserRouter>
   )
