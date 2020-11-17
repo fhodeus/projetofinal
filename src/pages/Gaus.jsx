@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from "react";
+import React, { useState } from "react";
 
 export default function Gaus() {
   const [primeiralinha, setprimeiralinha] = useState({ x1: 3, x2: 2, x3: 4, resultado: 1 })
